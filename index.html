@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VIEWIKI</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/js.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="centered">
+        <h1>SIMPLE WIKIPEDIA SEARCH</h1>
+        <br>
+        <br>
+        <div>
+            <button type="button" onclick="gotowiki()" name="random">Take me to a random article</button>
+            <br>
+            <br>
+            <input type="text" onkeydown = "if (event.keyCode == 13)document.getElementById('sbtn').click()"  maxlength="64" placeholder="Search" id="search"/>
+            <button type="button" onclick="getresults()" id="sbtn">Search</button>
+        </div>
+        <br>
+        <br>
+        <div id="results">
+
+        </div>
+
+        <br>
+        <br>
+        <p>a pen by <a href="http://gangadharkorrapati.github.io">Gangadhar</a></p>
+    </div>
+</body>
+
+</html>
